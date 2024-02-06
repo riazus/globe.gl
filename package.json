@@ -1,6 +1,6 @@
 {
   "name": "globe.gl-riazus",
-  "version": "2.32.1",
+  "version": "2.32.2",
   "description": "UI component for Globe Data Visualization using ThreeJS/WebGL. Commented useLegacyLights",
   "type": "module",
   "unpkg": "dist/globe.gl-riazus.min.js",
