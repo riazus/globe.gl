@@ -3,22 +3,22 @@
   "version": "2.32.1",
   "description": "UI component for Globe Data Visualization using ThreeJS/WebGL. Commented useLegacyLights",
   "type": "module",
-  "unpkg": "dist/globe.gl.min.js",
-  "jsdelivr": "dist/globe.gl.min.js",
-  "main": "dist/globe.gl.mjs",
-  "module": "dist/globe.gl.mjs",
-  "types": "dist/globe.gl.d.ts",
+  "unpkg": "dist/globe.gl-riazus.min.js",
+  "jsdelivr": "dist/globe.gl-riazus.min.js",
+  "main": "dist/globe.gl-riazus.mjs",
+  "module": "dist/globe.gl-riazus.mjs",
+  "types": "dist/globe.gl-riazus.d.ts",
   "exports": {
-    "types": "./dist/globe.gl.d.ts",
-    "umd": "./dist/globe.gl.min.js",
-    "default": "./dist/globe.gl.mjs"
+    "types": "./dist/globe.gl-riazus.d.ts",
+    "umd": "./dist/globe.gl-riazus.min.js",
+    "default": "./dist/globe.gl-riazus.mjs"
   },
   "sideEffects": [
     "./src/*.css"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasturiano/globe.gl.git"
+    "url": "git+https://github.com/riazus/globe.gl.git"
   },
   "keywords": [
     "webgl",
@@ -30,14 +30,14 @@
     "orthographic"
   ],
   "author": {
-    "name": "Vasco Asturiano",
-    "url": "https://github.com/vasturiano"
+    "name": "Riyaz Usmanov",
+    "url": "https://github.com/riazus"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vasturiano/globe.gl/issues"
+    "url": "https://github.com/riazus/globe.gl/issues"
   },
-  "homepage": "https://github.com/vasturiano/globe.gl",
+  "homepage": "https://github.com/riazus/globe.gl",
   "scripts": {
     "build": "rimraf dist && rollup -c",
     "dev": "rollup -w -c rollup.config.dev.js",
