@@ -425,7 +425,7 @@ export default Kapsule({
       custom: d => d
     };
 
-    state.renderObjs.renderer().useLegacyLights = false; // force behavior of three < 155
+    //state.renderObjs.renderer().useLegacyLights = false; // force behavior of three < 155
     state.renderObjs
       .hoverOrderComparator((a, b) => {
         const aObj = getGlobeObj(a);
